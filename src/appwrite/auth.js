@@ -36,6 +36,7 @@ export class AuthService {
         try {
             return await this.account.get();
         } catch (error) {
+            // console.log("ERRORRRRRRRRRRR");
             throw error;
         }
         return null;
